@@ -12,6 +12,10 @@
 #guide-content {
   scroll-margin-top: var(--ug-reading-offset);
 }
+/* Topic links focus this reading region when they skip the photo. */
+#guide-content:focus {
+  outline: none;
+}
 .ug-topic-title {
   display: none;
 }
